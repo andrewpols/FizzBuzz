@@ -6,10 +6,12 @@ package lab1;
 class FizzBuzz {
 
     public static void main(String[] args) {
-        fizzBuzzWhile();
+        doFizzBuzzWhile();
+        // doFizzBuzzFor();
+
     }
 
-    public static void fizzBuzzFor() {
+    public static void doFizzBuzzFor() {
         for (int i = 1; i < 100; i++) {
 
             // Find out which numbers divide i.
@@ -36,7 +38,7 @@ class FizzBuzz {
         }
     }
 
-    public static void fizzBuzzWhile() {
+    public static void doFizzBuzzWhile() {
         int i = 1;
 
         while (i < 100) {
